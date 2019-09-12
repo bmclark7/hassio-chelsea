@@ -21,7 +21,7 @@
     "mqtt_host": "hassio.local",
     "mqtt_user": "",
     "mqtt_password": "",
-    "mqtt_topic": "homeassistant/rtl433[/id]",
+    "mqtt_topic": "homeassistant/rtl433/id",
     "protocol": 100,
     "frequency": 319500000,
     "gain": 60,
