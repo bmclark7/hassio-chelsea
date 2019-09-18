@@ -14,7 +14,7 @@
     "amd64",
     "armv7",
     "i386",
-    "armv6l"
+    "armvhf"
   ],
   "options":
   {
