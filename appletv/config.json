@@ -1,0 +1,23 @@
+{
+  "name": "Apple TV",
+  "version": "0.1",
+  "slug": "appletv",
+  "description": "Add Apple TV controls automatically",
+  "url": "https://github.com/bmclark7/hassio-addons/tree/master/appletv",
+  "startup": "before",
+  "boot": "auto",
+  "map": ["config:rw", "ssl"],
+  "devices": [],
+  "host_network": "False",
+  "arch": [
+    "aarch64",
+    "amd64",
+    "armv7",
+    "i386",
+    "armv6l"
+  ],
+  "options":
+  {},
+  "schema":
+  {}
+}
