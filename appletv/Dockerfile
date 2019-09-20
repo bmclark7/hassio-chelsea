@@ -17,7 +17,7 @@ LABEL Description="This image is used to install pyatv"
 #
 # First install software packages needed to compile openssl for pyatv
 #
-RUN apk add --no-cache --virtual build-deps python3-dev wget alpine-sdk git  && \
+RUN apk add --no-cache --virtual build-deps linux-headers libffi-dev python3-dev wget alpine-sdk git  && \
     mkdir /tmp/appletv && \
     cd /tmp/appletv && \
     git clone https://github.com/openssl/openssl && \
