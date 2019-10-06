@@ -13,7 +13,8 @@
     "aarch64",
     "amd64",
     "armv7",
-    "i386"
+    "i386",
+    "armhf"
   ],
   "options":
   {
